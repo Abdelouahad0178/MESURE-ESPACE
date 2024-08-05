@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measure Distance with Camera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Measure Distance with Camera</h1>
+        <video id="video" autoplay></video>
+        <button id="flashButton">Toggle Flash</button>
+        <button id="measureButton">Measure Distance</button>
+        <p id="distance">Distance: N/A</p>
+    </div>
+    <script async src="opencv.js" onload="onOpenCvReady();"></script>
+    <script src="script.js"></script>
+</body>
+</html>
